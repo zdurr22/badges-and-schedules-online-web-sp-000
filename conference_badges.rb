@@ -23,5 +23,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  puts "Wrong"
+  badge_messages
+  assign_room_messages
 end
