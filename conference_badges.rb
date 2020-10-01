@@ -3,10 +3,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  badge_maker(attendees[0])
-  badge_maker(attendees[1])
-  badge_maker(attendees[2])
-  badge_maker(attendees[3])
-  badge_maker(attendees[4])
-  badge_maker(attendees[5])
+  arr = []
+  arr << badge_maker(attendees[0])
+  arr << badge_maker(attendees[1])
+  arr << badge_maker(attendees[2])
+  arr << badge_maker(attendees[3])
+  arr << badge_maker(attendees[4])
+  arr << badge_maker(attendees[5])
 end
