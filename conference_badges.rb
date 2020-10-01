@@ -10,5 +10,6 @@ def batch_badge_creator(attendees)
   arr << badge_maker(attendees[3])
   arr << badge_maker(attendees[4])
   arr << badge_maker(attendees[5])
+  arr << badge_maker(attendees[6])
   arr
 end
